@@ -172,7 +172,7 @@ class Shop:
         player_info.coin -= item_info.price
         item_info.is_owned = True
 
-
+# Items Store
 ITEMS = {
     # Swords
     "ninja_sword": NinjaSword(
@@ -222,6 +222,8 @@ my_info = PlayerInfo(
     gem=500,
     health=100
 )
+
+# ----- Objects -----
 
 me = Cat(
     info = my_info,
